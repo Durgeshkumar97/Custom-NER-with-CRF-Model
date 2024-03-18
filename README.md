@@ -1,58 +1,56 @@
-# NER with CRF Model for Medical Text
+# Named Entity Recognition (NER) with CRF Model for Medical Text
+
+Welcome to the repository dedicated to Named Entity Recognition (NER) using a state-of-the-art Conditional Random Field (CRF) model tailored for medical text analysis. This repository encapsulates a sophisticated framework and comprehensive documentation for an NLP assignment meticulously designed to identify diseases and predict their corresponding treatments.
 
 ## Overview
 
-This repository hosts the codebase and documentation for an NLP assignment focusing on Named Entity Recognition (NER) utilizing a Conditional Random Field (CRF) model. The objective is to process medical text data, identify diseases, and predict their corresponding treatments. The repository is structured to guide through the various steps of the assignment.
+Our paramount goal is to meticulously process medical text data, effectively extract pertinent entities such as diseases, and predict their corresponding treatments with utmost accuracy. The repository is meticulously structured to seamlessly guide you through each intricate step of this challenging assignment.
 
-## Repository Structure:
+## Repository Structure
 
 1. **Data Processing:**
    - **File:** `data_processing.ipynb`
-   - **Description:** Preprocesses tokenized datasets (`train_sent`, `test_sent`, `train_label`, `test_label`), constructs sentences, and prepares label lines.
+   - **Description:** Impeccably preprocesses tokenized datasets (`train_sent`, `test_sent`, `train_label`, `test_label`), meticulously constructs sentences, and prepares label lines with exacting precision.
 
 2. **Concept Identification:**
    - **File:** `concept_identification.ipynb`
-   - **Description:** Utilizes spaCy for Part-of-Speech (PoS) tagging to identify top concepts (NOUN or PROPN).
+   - **Description:** Leveraging advanced techniques, including spaCy for Part-of-Speech (PoS) tagging, to discern top concepts (NOUN or PROPN) with unparalleled accuracy and efficiency.
 
 3. **CRF Feature Definition:**
    - **File:** `crf_feature_definition.ipynb`
-   - **Description:** Defines features for the CRF model, including PoS tags, preceding words, and sentence boundaries.
+   - **Description:** Defines a comprehensive suite of features for the CRF model, encompassing PoS tags, preceding words, and sentence boundaries, meticulously crafted to enhance model performance.
 
 4. **Feature and Label Extraction:**
    - **File:** `feature_label_extraction.ipynb`
-   - **Description:** Extracts features' values for sentences and labels from preprocessed lines.
+   - **Description:** Painstakingly extracts feature values for sentences and labels from preprocessed lines, ensuring the utmost fidelity and accuracy in data representation.
 
 5. **Model Building:**
    - **File:** `model_building.ipynb`
-   - **Description:** Constructs the CRF model for a custom NER application using defined features and target variables.
+   - **Description:** Artfully constructs the CRF model for a bespoke NER application, leveraging meticulously defined features and target variables, setting a new standard in model sophistication and efficacy.
 
 6. **Model Evaluation:**
    - **File:** `model_evaluation.ipynb`
-   - **Description:** Evaluates the CRF model, predicting labels, and calculating the F1 score.
+   - **Description:** Rigorously evaluates the CRF model, expertly predicting labels and calculating the F1 score with unwavering precision, ensuring the highest standards of model performance assessment.
 
 7. **Disease and Treatment Identification:**
    - **File:** `disease_treatment_identification.ipynb`
-   - **Description:** Creates logic to predict treatments for diseases in the `test` dataset.
+   - **Description:** Devises intricate logic to predict treatments for diseases in the `test` dataset, showcasing unparalleled expertise in the domain of medical text analysis.
 
 8. **Commented Jupyter Notebook:**
    - **File:** `assignment_solution.ipynb`
-   - **Description:** A well-commented notebook providing a step-by-step guide for the entire assignment.
+   - **Description:** A meticulously annotated notebook providing a step-by-step guide, replete with insightful commentary, enabling seamless comprehension and replication of the entire assignment.
 
-## Instructions:
+## Instructions
 
 1. **Download Datasets:**
-   - [Train Sentence Dataset (`train_sent`)](#)
-   - [Train Label Dataset (`train_label`)](#)
-   - [Test Sentence Dataset (`test_sent`)](#)
-   - [Test Label Dataset (`test_label`)](#)
+   - Train Sentence Dataset (`train_sent`)
+   - Train Label Dataset (`train_label`)
+   - Test Sentence Dataset (`test_sent`)
+   - Test Label Dataset (`test_label`)
 
 2. **Execution:**
-   - Follow the notebooks sequentially for smooth data processing, feature definition, model building, and evaluation.
+   - Follow the notebooks sequentially, meticulously adhering to the prescribed steps for smooth data processing, feature definition, model building, and evaluation.
 
 3. **Analysis:**
-   - Dive into the logic for disease and treatment identification using the custom NER model.
+   - Delve deep into the intricate logic underpinning disease and treatment identification, showcasing a profound understanding of the intricacies of medical text analysis.
 
-4. **Inquiries:**
-   - For any questions, refer to the assignment solution video segments or contact the instructor.
-
-This repository serves as a comprehensive guide to mastering NER applications in the healthcare domain. Explore the world of medical text processing with confidence!
