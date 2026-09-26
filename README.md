@@ -52,5 +52,5 @@ Our paramount goal is to meticulously process medical text data, effectively ext
    - Follow the notebooks sequentially, meticulously adhering to the prescribed steps for smooth data processing, feature definition, model building, and evaluation.
 
 3. **Analysis:**
-   - Delve deep into the intricate logic underpinning disease and treatment identification, showcasing a profound understanding of the intricacies of medical text analysis.
+   - Delve deep into the intricate logic underpinning disease and treatment identification, showcasing a profound understanding of the intricacies of medical text analysis --.
 
